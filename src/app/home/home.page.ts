@@ -7,6 +7,14 @@ import { Component } from '@angular/core';
 })
 export class HomePage {
 
-  constructor() {}
+  public active: boolean;
+
+  constructor() {
+    this.active = false;
+  }
+
+  flash() {
+    
+  }
 
 }
